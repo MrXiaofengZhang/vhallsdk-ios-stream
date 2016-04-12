@@ -58,7 +58,7 @@
 		7B0F04721BD5EFCF000A11CE /* moviePause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0F045E1BD5EFCF000A11CE /* moviePause@2x.png */; };
 		7B0F04731BD5EFCF000A11CE /* moviePlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0F045F1BD5EFCF000A11CE /* moviePlay.png */; };
 		7B0F04741BD5EFCF000A11CE /* moviePlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0F04601BD5EFCF000A11CE /* moviePlay@2x.png */; };
-		7B139B331C87CD91002E7E96 /* libVHOpenLivePlay .a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B139B321C87CD91002E7E96 /* libVHOpenLivePlay .a */; };
+		7B2881BB1CBCCE9F002E5E7B /* libVHOpenLivePlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2881BA1CBCCE9F002E5E7B /* libVHOpenLivePlay.a */; };
 		7B2B441A1BCF99A300C50EE9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B2B44181BCF998B00C50EE9 /* CoreMedia.framework */; };
 		7B5DE54F1BC7CB1200ECA1D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5DE54E1BC7CB1200ECA1D9 /* main.m */; };
 		7B5DE5521BC7CB1200ECA1D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5DE5511BC7CB1200ECA1D9 /* AppDelegate.m */; };
@@ -157,7 +157,7 @@
 		7B0F045E1BD5EFCF000A11CE /* moviePause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviePause@2x.png"; sourceTree = "<group>"; };
 		7B0F045F1BD5EFCF000A11CE /* moviePlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moviePlay.png; sourceTree = "<group>"; };
 		7B0F04601BD5EFCF000A11CE /* moviePlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moviePlay@2x.png"; sourceTree = "<group>"; };
-		7B139B321C87CD91002E7E96 /* libVHOpenLivePlay .a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libVHOpenLivePlay .a"; sourceTree = "<group>"; };
+		7B2881BA1CBCCE9F002E5E7B /* libVHOpenLivePlay.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libVHOpenLivePlay.a; sourceTree = "<group>"; };
 		7B2B44181BCF998B00C50EE9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		7B5DE5491BC7CB1200ECA1D9 /* VhallRtmpDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VhallRtmpDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5DE54D1BC7CB1200ECA1D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -190,9 +190,9 @@
 				7B09967F1C1159E50077BCD8 /* libssl.a in Frameworks */,
 				7B09967D1C1159E50077BCD8 /* libcrypto.a in Frameworks */,
 				7B0F04361BD5E13C000A11CE /* libz.tbd in Frameworks */,
+				7B2881BB1CBCCE9F002E5E7B /* libVHOpenLivePlay.a in Frameworks */,
 				7B2B441A1BCF99A300C50EE9 /* CoreMedia.framework in Frameworks */,
 				7B09967A1C1159E50077BCD8 /* libavcodec.a in Frameworks */,
-				7B139B331C87CD91002E7E96 /* libVHOpenLivePlay .a in Frameworks */,
 				7B0C0ABD1BC8C58700B77912 /* QuartzCore.framework in Frameworks */,
 				7B0996801C1159E50077BCD8 /* libswresample.a in Frameworks */,
 				7B09967E1C1159E50077BCD8 /* liblibjingle_ios.a in Frameworks */,
@@ -244,7 +244,7 @@
 		7B0996681C1159E50077BCD8 /* VHallSDK */ = {
 			isa = PBXGroup;
 			children = (
-				7B139B321C87CD91002E7E96 /* libVHOpenLivePlay .a */,
+				7B2881BA1CBCCE9F002E5E7B /* libVHOpenLivePlay.a */,
 				7B0D10FE1C858AB400854FC4 /* CameraEngineRtmp.h */,
 				7B0D10FF1C858AB400854FC4 /* VHMoviePlayer.h */,
 				7B0D10FB1C8589BA00854FC4 /* VHallOpenLivePublish.h */,
